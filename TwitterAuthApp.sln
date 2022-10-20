@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAuth", "TwitterAuth\TwitterAuth.csproj", "{EB6CFF2B-1E81-47BD-8692-46248E04AE01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB6CFF2B-1E81-47BD-8692-46248E04AE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6CFF2B-1E81-47BD-8692-46248E04AE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6CFF2B-1E81-47BD-8692-46248E04AE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6CFF2B-1E81-47BD-8692-46248E04AE01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3CF54DB-2E6E-419D-857D-3347378075AF}
+	EndGlobalSection
+EndGlobal
