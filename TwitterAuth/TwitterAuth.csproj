@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="NuGet.PackageManagement" />
+    <None Remove="Microsoft.AspNetCore.Authentication.Twitter" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -21,6 +22,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0" />
     <PackageReference Include="NuGet.PackageManagement" Version="6.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="6.0.10" />
   </ItemGroup>
 
 </Project>

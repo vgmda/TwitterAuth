@@ -11,7 +11,7 @@
     "TwitterAuth": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7040;http://localhost:5094",
+      "applicationUrl": "https://localhost:12946",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

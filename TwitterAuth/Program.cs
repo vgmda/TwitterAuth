@@ -12,6 +12,15 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+builder.Services.AddAuthentication()
+    .AddTwitter(opts =>
+    {
+        opts.ConsumerKey = "";
+        opts.ConsumerSecret = "";
+    });
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
