@@ -17,8 +17,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddAuthentication()
     .AddTwitter(opts =>
     {
-        opts.ConsumerKey = "";
-        opts.ConsumerSecret = "";
+        opts.ConsumerKey = builder.Configuration["Authentication:Twitter:ConsumerAPIKey"];
+        opts.ConsumerSecret = builder.Configuration["Authentication:Twitter:ConsumerSecret"];
     });
 
 builder.Services.AddRazorPages();
